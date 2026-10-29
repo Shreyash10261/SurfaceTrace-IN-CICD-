@@ -1,0 +1,26 @@
+# config/seed_urls.txt
+# Public pages: research reports, security blogs, academic papers, news features
+https://www.orfonline.org/research/the-online-spaces-of-extremism-in-india
+https://www.stimson.org/2021/cyber-threats-and-extremism-in-south-asia/
+https://idsa.in/issuebrief/terrorist-use-of-the-internet-in-india
+https://www.satp.org/terrorist-groups/india
+https://www.icct.nl/publication/terrorist-use-dark-web-technologies
+https://www.recordedfuture.com/threat-research-hub
+https://krebsonsecurity.com/category/cyber-crime/
+https://www.darkreading.com/threat-intelligence
+https://thehackernews.com/search/label/Dark%20Web
+https://www.cfr.org/backgrounder/militant-groups-south-asia
+https://www.rand.org/pubs/research_reports/RR2983.html
+https://ctc.westpoint.edu/the-islamic-state-in-india/
+https://www.epw.in/journal/cyber-security-and-national-security-india
+https://carnegieindia.org/research/cybersecurity
+https://www.securityweek.com/cybercrime/
+https://www.bleepingcomputer.com/tag/dark-web/
+https://www.interpol.int/en/Crimes/Cybercrime
+https://www.unodc.org/unodc/en/cybercrime/global-programme-cybercrime.html
+https://www.eurasiareview.com/analysis-india-counter-terrorism/
+https://southasiamonitor.org/security-strategy/dark-web-challenges-india
+https://www.mha.gov.in/en/divisionofmha/cyber-and-information-security-cis-division
+https://www.cisa.gov/resources-tools/all-resources-products
+https://cybersecurityguide.org/resources/dark-web/
+

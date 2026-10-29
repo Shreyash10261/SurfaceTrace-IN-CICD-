@@ -1,0 +1,49 @@
+# config/keywords.yml
+# SurfaceTrace-IN keyword dictionary for lead scoring
+
+strong:
+  weight: 10
+  terms:
+    - "terrorism in india"
+    - "lashkar-e-taiba"
+    - "jaish-e-mohammed"
+    - "hizbul mujahideen"
+    - "indian mujahideen"
+    - "al-qaeda in the indian subcontinent"
+    - "iskp"
+    - "simi"
+    - "cpi (maoist)"
+
+medium:
+  weight: 5
+  terms:
+    - "jihadi"
+    - "extremist"
+    - "maoist"
+    - "radicalization"
+    - "recruitment"
+    - "khalistan"
+    - "naxal"
+    - "propaganda"
+    - "uapa"
+
+weak:
+  weight: 2
+  terms:
+    - "india"
+    - "kashmir"
+    - "dark web"
+    - "forum"
+    - "hidden service"
+    - "telegram"
+    - "darknet"
+
+negative:
+  weight: -5
+  terms:
+    - "movie"
+    - "web series"
+    - "game"
+    - "quiz"
+    - "fiction"
+

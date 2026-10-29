@@ -1,0 +1,43 @@
+# config/queries.txt
+# Queries combining dark web, India, and designated group names
+"terrorism in India" "dark web" forum
+"terrorism in India" ".onion"
+"darknet forum" India terrorism
+"hidden service" India extremist
+"onion link" Kashmir terrorism
+"dark web" "Lashkar-e-Taiba"
+"dark web" "Jaish-e-Mohammed"
+"dark web" "Hizbul Mujahideen"
+"dark web" "Indian Mujahideen"
+"dark web" "Al-Qaeda in the Indian Subcontinent"
+"dark web" "ISKP" India
+"dark web" Khalistan extremist
+"dark web" Maoist insurgency
+"dark web" Naxalite
+"onion link" Lashkar-e-Taiba
+"onion link" Jaish-e-Mohammed
+"onion link" Hizbul Mujahideen
+"onion link" Indian Mujahideen
+"onion link" Khalistan
+"onion link" Maoist
+".onion" terrorism India report
+".onion" Kashmir extremist
+"darknet" India jihad propaganda
+"darknet" SIMI banned India
+"hidden service" Indian Mujahideen
+"hidden service" Lashkar-e-Taiba
+"Tor forum" terrorism India
+"Tor forum" Kashmir radicalization
+"dark web monitoring" India terrorism
+"dark web" recruitment India extremist
+"dark web" propaganda India jihad
+"dark web" terror funding India
+"onion link" terror camp Kashmir
+"darknet" terror module India
+"dark web" IED blast India investigation
+"onion" radicalization Jammu Kashmir
+"dark web" cyber jihad India
+"hidden service" extremist recruitment India
+"darknet" weapon smuggling India terror
+"dark web" terrorist threat India
+

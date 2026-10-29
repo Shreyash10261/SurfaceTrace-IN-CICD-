@@ -1,0 +1,33 @@
+# ============================================================
+# SurfaceTrace-IN — Docker Compose
+# Services: pipeline (runs once), dashboard (Streamlit on localhost:8501)
+# No Tor service. Both mount ./data.
+# ============================================================
+
+services:
+  # Pipeline execution service (runs collect -> fetch -> extract -> score once)
+  pipeline:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config:ro
+    environment:
+      - DATA_DIR=/app/data
+      - SEARCH_API_KEY=${SEARCH_API_KEY:-}
+      - SEARCH_ENGINE_ID=${SEARCH_ENGINE_ID:-}
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
+    entrypoint: ["python", "-m", "st"]
+    command: ["run-all"]
+
+  # Review Dashboard (Streamlit UI bound to 127.0.0.1:8501)
+  dashboard:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config:ro
+    environment:
+      - DATA_DIR=/app/data
+    entrypoint: ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true"]
+    restart: unless-stopped

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment & Secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Data and SQLite databases (never commit raw leads or DBs)
+data/*
+!data/.gitkeep
+output/
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test and lint cache
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/

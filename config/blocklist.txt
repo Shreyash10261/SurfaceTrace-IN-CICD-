@@ -1,0 +1,14 @@
+# config/blocklist.txt
+# Domains and words to check before saving (one per line)
+# Lines starting with # are comments. Empty lines are ignored.
+
+# Prohibited material terms (Rule 4: CSAM / illegal material)
+csam
+child abuse material
+child sexual abuse
+child exploitation
+
+# Blocked / malicious domains
+blocked-domain-sample.com
+malware-distribution-sample.net
+
